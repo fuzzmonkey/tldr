@@ -1,6 +1,6 @@
 # Tldr
 
-A gem for (tldr.io](http://tldr.io). You will need an API client name & key to access the search. Details of which can be found at on the [tldr api documentation.](http://tldr.io/api-documentation)
+A gem for [tldr.io](http://tldr.io). You will need an API client name & key to access the search. Details of which can be found at on the [tldr api documentation.](http://tldr.io/api-documentation)
 
 ## Installation
 
