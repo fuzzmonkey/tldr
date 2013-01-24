@@ -1,6 +1,6 @@
 # Tldr
 
-TODO: Write a gem description
+A gem for [http://tldr.io](tldr.io). You will need an API client name & key to access the search. Details of which can be found at on the [http://tldr.io/api-documentation](tldr api documentation.)
 
 ## Installation
 
@@ -18,7 +18,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Create a client
+
+	client = Tldr::API.new('api_client_name','api_client_key')
+
+### Latest Articles
+
+	client.latest n
+
+Where n is the number of latest articles to return, maximum 10.
+	
+### Search
+
+	client.search url
+
+Where url is the URL of the article you want to search for a tldr for.
+
+### Batch Search
+Not implemented
 
 ## Contributing
 
